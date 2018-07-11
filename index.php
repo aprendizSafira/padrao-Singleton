@@ -4,6 +4,7 @@ class Pessoa {
 	private $nome;
 	private $idade;
 
+	//Criação do metodo publico que retorna para gente.
 	public static function getInstance() {
 
 		static $instance = null;
